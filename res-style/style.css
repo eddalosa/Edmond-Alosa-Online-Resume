@@ -30,21 +30,32 @@
     color: whitesmoke;
 }
 
-.res-left-h {
+.res-left-h .res-right-h{
     font-weight: 400;
     font-size: 15px;
-    margin: 30px 0px 15px 0px;
+    /* margin: 30px 0px 15px 0px; */
 }
-.solid {
+.left-solid {
     border-top: 2px solid#fecb00;
 }
 
+.right-solid {
+    border-top: 1px solid#21212f;
+}
+
 .res-left-c h4 {
-    font-weight: 400;
+    font-weight: 700;
     font-size: 14px;
 }
 
 .res-left-c p {
+    margin-top: -15px;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.res-right-c p {
     margin-top: -15px;
     padding-left: 10px;
     font-weight: 400;
@@ -75,6 +86,79 @@
     margin: 40px auto;
 }
 
+.res-header-mobile {
+    display:none;
+}
+
 .res-header span {
     font-weight:400;
+}
+
+.res-name {
+    text-transform: uppercase;
+}
+.pro-content {
+    margin-left:40px;
+    color: #211f27;
+}
+
+.pro-time {
+    float:left;
+    width: 20%;
+}
+
+.pro-exp {
+    width: 80%;
+    float:left;
+}
+.pro-exp-h h4 {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.pro-exp-h p{
+    font-weight: 700;
+    font-size:13px;
+}
+
+.pro-exp-c ul{
+    font-weight: 400;
+    font-size:13px;
+}
+.pro-time h5 {
+    font-weight: 600;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .res-row {
+        width:100%;
+    }
+
+    .res-header-mobile {
+        display:block;
+        background-color: #fecb00;
+        padding: 35px 30px;
+        margin: 40px auto;
+    }
+
+    .res-header {
+        display:none;
+    }
+    .res-left {
+        width:100%;
+        float:none;
+    }
+
+    .res-right {
+        width:100%;
+    }
+
+    .pro-time h5 {
+        font-weight: 700;
+        font-size: 11px;
+    }
 }
