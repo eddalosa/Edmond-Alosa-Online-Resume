@@ -163,4 +163,9 @@
         font-weight: 700;
         font-size: 11px;
     }
+
+    .pro-time {
+        width:50%;
+        float:none;
+    }
 }
