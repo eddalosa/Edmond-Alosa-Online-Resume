@@ -36,7 +36,9 @@
     /* margin: 30px 0px 15px 0px; */
 }
 .left-solid {
+    border:0;
     border-top: 2px solid#fecb00;
+    color: #fecb00;  
 }
 
 .right-solid {
