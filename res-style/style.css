@@ -131,6 +131,24 @@
     font-weight: 600;
 }
 
+.res-button {
+    background-color: white;
+    color: black;
+    border: 2px solid #fecb00; /* Green */
+    padding: 10px 10px;
+    display: flex;
+    margin: 30px auto;
+}
+
+.res-button {
+    transition-duration: 0.4s;
+  }
+  
+.res-button:hover {
+    background-color: #fecb00; /* Green */
+    color: white;
+  }
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 480px)

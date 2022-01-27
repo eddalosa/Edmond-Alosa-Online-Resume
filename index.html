@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Edmond Alosa Resume</title>
+        <meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Edmond Alosa Resume</title>
         <link rel="stylesheet" href="res-style/style.css">
         <link rel="icon" type="image/x-icon" href="images/favicon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        <script src="javascript/html2pdf.bundle.min.js"></script>
+        <script type="text/javascript" src="javascript/res-scripts.js"></script>
     </head>
     <body>
-        <div class="res-content">
-            <div class="res-row">
+        <button class="res-button"onclick="generatePDF();">Get the PDF</button>
+        <div class="res-content" id="resume-cont">
+            <div id="r-row" class="res-row">
                 <div class="col res-left">
                     <div class="res-image">
-                        <img src="res-images/profile_edmond.jpg" alt="the resume profile picture">
+                        <img id="r-image" src="res-images/profile_edmond.jpg" alt="resume-image">
                     </div>
 
                     <div class="res-header-mobile">
@@ -204,7 +209,6 @@
                 </div>
             </div>
         </div>
-
         </div>
     </body>
 </html> 
